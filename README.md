@@ -1,6 +1,6 @@
 Here's the complete `README.md` in markdown format:
 
-```markdown
+
 # YT-Shorts-Maker
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
