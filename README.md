@@ -6,7 +6,7 @@
 
 ## Overview
 
-`YT-Shorts-Maker` is a Python toolset designed to simplify the process of creating engaging Instagram Reels and YouTube Shorts. With just one click, you can transform long videos into viral clips, making it an ideal tool for content creators looking to boost their social media presence effortlessly. This open-source tool is an alternative to popular platforms like [Klap.app](https://klap.app/), [2short.ai](https://2short.ai/), Spikes Studio, and [Vizard.ai](https://vizard.ai/). Reels can be generated for as low as 10 cents per reel using the OpenAI API.
+`ReelDaddy` is a Python toolset designed to simplify the process of creating engaging Instagram Reels and YouTube Shorts. With just one click, you can transform long videos into viral clips, making it an ideal tool for content creators looking to boost their social media presence effortlessly. This open-source tool is an alternative to popular platforms like [Klap.app](https://klap.app/), [2short.ai](https://2short.ai/), Spikes Studio, and [Vizard.ai](https://vizard.ai/). Reels can be generated for as low as 10 cents per reel using the OpenAI API.
 
 Here's an updated installation guide that you can include in your README:
 
