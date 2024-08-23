@@ -11,6 +11,78 @@ Here's an updated version of the README file with the requested changes:
 
 `YT-Shorts-Maker` is a Python toolset designed to simplify the process of creating engaging Instagram Reels and YouTube Shorts. With just one click, you can transform long videos into viral clips, making it an ideal tool for content creators looking to boost their social media presence effortlessly. This open-source tool is an alternative to popular platforms like [Klap.app](https://klap.app/), [2short.ai](https://2short.ai/), Spikes Studio, and [Vizard.ai](https://vizard.ai/). Reels can be generated for as low as 10 cents per reel using the OpenAI API.
 
+Here's an updated installation guide that you can include in your README:
+
+---
+
+## Installation
+
+Follow the steps below to set up the `YT-Shorts-Maker` tool on your local machine:
+
+### Step 1: Clone the Git Repository
+
+```bash
+git clone https://github.com/MArsalanJaved/ReelDaddy.git
+```
+
+### Step 2: Create and Activate a New Virtual Environment
+
+Navigate to the cloned repository's folder:
+
+```bash
+cd ReelDaddy
+```
+
+Create and activate a new virtual environment:
+
+```bash
+python -m venv reels-env
+source reels-env/bin/activate  # On Windows, use `reels-env\Scripts\activate`
+```
+
+### Step 3: Install the Required Dependencies
+
+Install the dependencies listed in the `requirements.txt` file:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Step 4: Install FFmpeg
+
+FFmpeg is required for processing video files. Below are instructions for installing FFmpeg on different platforms:
+
+#### macOS
+
+You can install FFmpeg using Homebrew:
+
+```bash
+brew install ffmpeg
+```
+
+#### Windows
+
+Download FFmpeg from the official [FFmpeg website](https://ffmpeg.org/download.html). Make sure to add FFmpeg to your system's PATH variable.
+
+#### Linux
+
+On Ubuntu/Debian-based systems:
+
+```bash
+sudo apt update
+sudo apt install ffmpeg
+```
+
+For other Linux distributions, use your package manager to install FFmpeg.
+
+### Step 5: Set Up Your OpenAI API Key
+
+Create a `.env` file in the root directory of the project and include your OpenAI API Key:
+
+```
+OPENAI_API_KEY='Your-OpenAI-API-key-here'
+```
+
 ## How It Works
 
 ### Step 1: Download a YouTube Video
