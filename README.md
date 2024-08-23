@@ -1,12 +1,15 @@
+Here's an updated version of the README file with the requested changes:
 
-# InstaReels-Creator
+---
+
+# ReelDaddy
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## Overview
 
-`YT-Shorts-Maker` is a Python toolset designed to simplify the process of creating engaging Instagram Reels and YouTube Shorts. This tool allows you to download YouTube videos and automatically generate short-form video content that focuses on key moments, such as when someone is speaking. It's perfect for content creators who want to increase their social media engagement effortlessly.
+`YT-Shorts-Maker` is a Python toolset designed to simplify the process of creating engaging Instagram Reels and YouTube Shorts. With just one click, you can transform long videos into viral clips, making it an ideal tool for content creators looking to boost their social media presence effortlessly. This open-source tool is an alternative to popular platforms like [Klap.app](https://klap.app/), [2short.ai](https://2short.ai/), Spikes Studio, and [Vizard.ai](https://vizard.ai/). Reels can be generated for as low as 10 cents per reel using the OpenAI API.
 
 ## How It Works
 
@@ -97,9 +100,14 @@ For other Linux distributions, use your package manager to install FFmpeg.
 
 Contributions are welcome! Please open an issue or submit a pull request if you would like to contribute to this project.
 
+### Things To Do
+
+- **Subtitles**: Adding a feature to automatically generate and add subtitles to the reels.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
-This update includes specific instructions for installing FFmpeg on macOS, Windows, and Linux, ensuring that users on any platform can get your tool up and running without issues.
+---
+
+This update incorporates the requested features and provides clear instructions for users on different platforms to install and use the tool.
