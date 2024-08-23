@@ -1,3 +1,4 @@
+
 # InstaReels-Creator
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
@@ -32,6 +33,7 @@ This script will automatically:
 - Cut the video into shorter clips.
 - Focus on the person speaking in the video.
 - Create engaging reels optimized for Instagram and YouTube.
+
 ## Sample Output
 
 Below are examples of how the tool transforms a raw video into engaging content.
@@ -58,10 +60,38 @@ cd YT-Shorts-Maker
 pip install -r requirements.txt
 ```
 
+### Installing FFmpeg
+
+FFmpeg is required for processing video files. Below are instructions for installing FFmpeg on different platforms:
+
+#### macOS
+
+You can install FFmpeg using Homebrew:
+
+```bash
+brew install ffmpeg
+```
+
+#### Windows
+
+Download FFmpeg from the official [FFmpeg website](https://ffmpeg.org/download.html). Make sure to add FFmpeg to your system's PATH variable.
+
+#### Linux
+
+On Ubuntu/Debian-based systems:
+
+```bash
+sudo apt update
+sudo apt install ffmpeg
+```
+
+For other Linux distributions, use your package manager to install FFmpeg.
+
 ## Dependencies
 
 - `pytube`: For downloading YouTube videos.
 - `moviepy`: For editing and processing videos.
+- **FFmpeg**: Required by `moviepy` for video processing.
 
 ## Contributing
 
@@ -72,4 +102,4 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
 
-This `README.md` file includes all the necessary sections to provide a clear understanding of your project and how to use it. Make sure to replace placeholders like `[Link to raw video or embed a preview if possible]` and `path/to/snapshot1.png` with the actual paths or links in your repository.
+This update includes specific instructions for installing FFmpeg on macOS, Windows, and Linux, ensuring that users on any platform can get your tool up and running without issues.
