@@ -1,7 +1,4 @@
-Here's the complete `README.md` in markdown format:
-
-
-# YT-Shorts-Maker
+# InstaReels-Creator
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
