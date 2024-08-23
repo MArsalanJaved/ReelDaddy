@@ -1,6 +1,3 @@
-Here's an updated version of the README file with the requested changes:
-
----
 
 # ReelDaddy
 
